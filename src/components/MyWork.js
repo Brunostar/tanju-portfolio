@@ -22,7 +22,8 @@ export default function MyWork() {
 
         {/* <!-- Portfolio item 03 --> */}
         <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" />
+          {/* <img src="img/portfolio-03.jpg" alt="" class="portfolio__img" /> */}
+          <WorkItem />
         </a>
 
         {/* <!-- Portfolio item 04 --> */}
