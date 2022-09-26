@@ -1,9 +1,17 @@
 export default function Header() {
-  const logo = "<brunostar>";
+  
+  const logo = "<brunostar />";
+  
+    const toggleNavbar = () => {
+        document.body.classList.toggle('nav-open');
+    }
+    
   return (
     <header>
       <div class="logo">{logo}</div>
-      <button class="nav-toggle" aria-label="toggle navigation">
+      <button class="nav-toggle" 
+      aria-label="toggle navigation" 
+      onClick={toggleNavbar}>
         <span class="hamburger"></span>
       </button>
       <nav class="nav">
