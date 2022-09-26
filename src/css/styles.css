@@ -396,11 +396,15 @@ header {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 2em;
+  row-gap: 2em;
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
+  background: #353535;
+  color: var(--clr-light);
   overflow: hidden;
+  text-decoration: none;
 }
 
 .portfolio__img {
@@ -413,9 +417,27 @@ header {
 }
 
 .portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
+.portfolio__item:hover,
+.portfolio__item:focus .work-item__image {
   transform: scale(1.2);
   opacity: 0.5;
+  margin: 0.5em;
+}
+
+.work-item__image {
+  background-image: url(../img/portfolio-03.png);
+  background-color: none;
+  background-size: cover;
+  height: 10em;
+  /* margin: 0.5em; */
+}
+
+.work-item__text {
+  margin: 1em;
+}
+
+.work-item__tools {
+  margin-top: 0em;
 }
 
 /* footer */
@@ -467,7 +489,7 @@ header {
 .portfolio-item-individual {
   padding: 0 2em 2em;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 2em auto;
 }
 
 .portfolio-item-individual p {

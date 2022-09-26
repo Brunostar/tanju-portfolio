@@ -1,3 +1,4 @@
+import WorkItem from "./WorkItem"
 export default function MyWork() {
   return (
     <section class="my-work" id="work">
@@ -9,12 +10,14 @@ export default function MyWork() {
       <div class="portfolio">
         {/* <!-- Portfolio item 01 --> */}
         <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" />
+          {/* <img src="img/portfolio-01.jpg" alt="" class="portfolio__img" /> */}
+          <WorkItem />
         </a>
 
         {/* <!-- Portfolio item 02 --> */}
         <a href="portfolio-item.html" class="portfolio__item">
-          <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" />
+          {/* <img src="img/portfolio-02.jpg" alt="" class="portfolio__img" /> */}
+          <WorkItem />
         </a>
 
         {/* <!-- Portfolio item 03 --> */}
