@@ -19,12 +19,12 @@ export default function Footer() {
             <p class="social-text">Linkedin</p>
           </a>
         </li>
-        <li class="social-list__item">
+        {/* <li class="social-list__item">
           <a class="social-list__link" href="https://twitter.com/TBStar7">
             <i class="fab fa-twitter"></i>
             <p class="social-text">Twitter</p>
           </a>
-        </li>
+        </li> */}
         <li class="social-list__item">
           <a class="social-list__link" href="https://github.com/Brunostar?tab=repositories">
             <i class="fab fa-github"></i>
