@@ -2,7 +2,7 @@ import WorkItem from "./WorkItem"
 import data from "../Data"
 export default function MyWork() {
     const workCards = data.map(item => {
-        return <a href={item["source-code"]} class="portfolio__item">
+        return <a href={item["source-code"]} class="portfolio__item" target="_blank">
                 <WorkItem 
                     key={item.id}
                     title={item.title}
