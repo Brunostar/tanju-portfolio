@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tanju-portfolio/static/css/main.fd9fe24d.css",
-    "main.js": "/tanju-portfolio/static/js/main.85ee109a.js",
+    "main.js": "/tanju-portfolio/static/js/main.d51e065f.js",
     "static/media/portfolio-03.png": "/tanju-portfolio/static/media/portfolio-03.dc25456cc867a4518213.png",
     "static/media/portfolio-travel-journal.png": "/tanju-portfolio/static/media/portfolio-travel-journal.0e943b45307bba9c5196.png",
     "static/media/portfolio-02.jpg": "/tanju-portfolio/static/media/portfolio-02.0b0150a446b93bdfb0dc.jpg",
@@ -11,10 +11,10 @@
     "static/media/portfolio-tenzies.png": "/tanju-portfolio/static/media/portfolio-tenzies.8bf045eec7b26fcc6986.png",
     "index.html": "/tanju-portfolio/index.html",
     "main.fd9fe24d.css.map": "/tanju-portfolio/static/css/main.fd9fe24d.css.map",
-    "main.85ee109a.js.map": "/tanju-portfolio/static/js/main.85ee109a.js.map"
+    "main.d51e065f.js.map": "/tanju-portfolio/static/js/main.d51e065f.js.map"
   },
   "entrypoints": [
     "static/css/main.fd9fe24d.css",
-    "static/js/main.85ee109a.js"
+    "static/js/main.d51e065f.js"
   ]
 }

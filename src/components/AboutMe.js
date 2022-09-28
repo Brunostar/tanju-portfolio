@@ -9,25 +9,21 @@ export default function AboutMe() {
       <div class="about-me__body">
         <p>
           Tanjuate Brunostar Achaleke is my very long name. Most people call me
-          Brunostar or Bruno and some Tanju. I study Software Engineering at the
-          the University of Bamenda, Cameroon. This was expected as I have had 
-          a passsion for technology for as Long as I can remember. So after high
-          school. I did not have two things in mind.
+          Brunostar or Bruno and some Tanju. I am passionate about solving everyday
+          problems (both simple and complex) using tech. So I spend a lot of my time
+          learning new technologies, experimenting with personal projects and helping
+          other who may need it.
         </p>
         <p>
-          I am currently in my fourth Year and i thought to myself, "You have been
-          studying and working on Software ever since you got to the University.
-          Why not set up a portfolio website and show case your work perhaps someone
-          could give you a job or at least a paid internship". Here we go. Find below a
-          sample of my work.
+          I have had the opportunity to attend tech boot camps and internships. These
+          helped me get rid of my imposter syndrom as I got to work on Software projects
+          in a team where we built highly scalable Industry ready applications using 
+          agile methodology. Working in teams i realized is so fun as everyone is allowed
+          to express themselves in comfortable environments. The flow of ideas and suggestions
+          just makes the work seamless. check out my github for some of these projects
+          and also connect with me on LinkedIn, email or WhatsApp.
         </p>
       </div>
-
-      {/* <img
-        src="../img/portfolio-02.jpg"
-        alt="Brunostar larger"
-        class="about-me__img"
-      /> */}
       
       <div class="about-me__img"></div>
     </section>
