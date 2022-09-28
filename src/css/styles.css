@@ -425,8 +425,8 @@ header {
 }
 
 .work-item__image {
-  background-image: url(../img/portfolio-04.png);
-  background-color: none;
+  /* background-image: url(../img/portfolio-04.png);
+  background-color: none; */
   background-size: cover;
   height: 10em;
   /* margin: 0.5em; */
@@ -462,6 +462,7 @@ header {
 .footer__link:hover,
 .social-list__link:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .footer__link:hover {
